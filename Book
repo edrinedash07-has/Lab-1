@@ -1,0 +1,20 @@
+public class Book {
+    String title;
+    String author;
+    int pages;
+
+    public void displayBook() {
+        System.out.println("Honey bunch plumplum: " + title);
+        System.out.println("Dashyy: " + author);
+        System.out.println("06: " + pages);
+    }
+
+    public static void main(String[] args) {
+        Book b = new Book();
+        b.title = "sa ibabaw ng cupcake mo";
+        b.author = "cutiepie";
+        b.pages = 6;
+
+        b.displayBook();
+    }
+}
