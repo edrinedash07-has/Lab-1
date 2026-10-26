@@ -1,5 +1,3 @@
-
-
 public class Book {
     String title;
     String author;
@@ -10,7 +8,6 @@ public class Book {
         System.out.println("Author: " + author);
         System.out.println("Pages: " + pages);
     }
-
     public static void main(String[] args) {
         Book b = new Book();
         b.title = "sa ibabaw ng cupcake mo";
